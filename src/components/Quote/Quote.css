@@ -1,0 +1,101 @@
+.quote-container {
+  display: flex;
+  margin: 10px 20px 0;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-family: sans-serif;
+}
+
+.invisible {
+  display: none;
+}
+
+.left-panel {
+  width: 30%;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freight-type {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+
+.freight-type span{
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.freight-type .freight-type-icon {
+  width: 50px;
+  height: 50px;
+  color: #3898ec;
+}
+
+.freight-details {
+  text-align: center;
+  padding: 10px 10px 15px;
+}
+
+.freight-details .days-number {
+  color:#4129c7;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.freight-details p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.freight-details .dates {
+  font-weight: bold;
+}
+
+.right-panel {
+  width: 70%;
+  border-left: 1px solid #000;
+  text-align: center;
+}
+
+.countries-header {
+  height: 20%;
+  color: #FFF;
+  font-weight: 600;
+  background-color: #4129c7;
+}
+
+.countries-header svg {
+  margin: 0 5px;
+}
+
+.quote-total {
+  height: 80%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .visible {
+    display: block;
+  }
+  .quote-container .left-panel, .quote-container .right-panel {
+    width: 100%;
+  }
+  .countries-header {
+    padding: 7px;
+  }
+  .quote-total {
+    padding: 20px 5px;
+  }
+  .right-panel {
+    border-left: unset;
+  }
+}

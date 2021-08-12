@@ -1,0 +1,31 @@
+.quote-form {
+  margin: 10px 20px;
+}
+
+.quote-form input, .quote-form select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.quote-form label {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.quote-form a {
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #3898ec;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.quote-form span {
+  color: red;
+  font-weight: bold;
+}
